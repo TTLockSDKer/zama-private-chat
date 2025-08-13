@@ -1,0 +1,4 @@
+{
+  "tfhe_bg.wasm": "/static/wasm/tfhe_bg.wasm",
+  "kms_lib_bg.wasm": "/static/wasm/kms_lib_bg.wasm"
+} 
