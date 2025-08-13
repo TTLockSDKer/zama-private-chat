@@ -19,6 +19,11 @@ const RPC_URLS = [
 // WalletConnect projectId（https://cloud.walletconnect.com/）
 const projectId = UNIFIED_CONFIG.WALLETCONNECT.projectId;
 
+if (!projectId) {
+  console.error('Missing NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID environment variable');
+  console.log('Please get your Project ID from https://cloud.walletconnect.com/');
+}
+
 let config: Config | null = null;
 
 export function getWagmiConfig(): Config {

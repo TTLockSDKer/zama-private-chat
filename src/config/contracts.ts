@@ -36,7 +36,7 @@ const UNIFIED_CONFIG = {
   },
 
   WALLETCONNECT: {
-    projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || 'b996637b735ebd42362f5f53544b36b5'
+    projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || ''
   },
 
   NETWORK: {
